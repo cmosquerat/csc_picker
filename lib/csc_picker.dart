@@ -688,8 +688,8 @@ class _CSCPickerState extends State<CSCPicker> {
       if (value != _selectedCountry) {
         _states.clear();
         _cities.clear();
-        _selectedState = "State";
-        _selectedCity = "City";
+        _selectedState = "Estado";
+        _selectedCity = "Ciudad";
         this.widget.onStateChanged!(null);
         this.widget.onCityChanged!(null);
         _selectedCountry = value;
