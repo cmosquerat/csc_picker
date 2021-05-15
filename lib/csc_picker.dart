@@ -557,9 +557,9 @@ class _CSCPickerState extends State<CSCPicker> {
   List<String?> _country = [];
   List<String?> _states = [];
 
-  String _selectedCity = "City";
+  String _selectedCity = "Ciudad";
   String? _selectedCountry;
-  String _selectedState = "State";
+  String _selectedState = "Estado";
   var responses;
 
   @override
@@ -826,7 +826,7 @@ class _CSCPickerState extends State<CSCPicker> {
       items: _country.map((String? dropDownStringItem) {
         return dropDownStringItem;
       }).toList(),
-      selected: _selectedCountry != null ? _selectedCountry : "Country",
+      selected: _selectedCountry != null ? _selectedCountry : "País",
       //selected: _selectedCountry != null ? _selectedCountry : "Country",
       //onChanged: (value) => _onSelectedCountry(value),
       onChanged: (value) {
