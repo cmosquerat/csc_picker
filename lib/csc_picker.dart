@@ -813,8 +813,8 @@ class _CSCPickerState extends State<CSCPicker> {
   ///Country Dropdown Widget
   Widget countryDropdown() {
     return DropdownWithSearch(
-      title: "Country",
-      placeHolder: "Search Country",
+      title: "País",
+      placeHolder: "Buscar país",
       selectedItemStyle: widget.selectedItemStyle,
       dropdownHeadingStyle: widget.dropdownHeadingStyle,
       itemStyle: widget.dropdownItemStyle,
@@ -841,8 +841,8 @@ class _CSCPickerState extends State<CSCPicker> {
   ///State Dropdown Widget
   Widget stateDropdown() {
     return DropdownWithSearch(
-      title: "State",
-      placeHolder: "Search State",
+      title: "Estado",
+      placeHolder: "Buscar estado",
       disabled: _states.length == 0 ? true : false,
       items: _states.map((String? dropDownStringItem) {
         return dropDownStringItem;
@@ -868,8 +868,8 @@ class _CSCPickerState extends State<CSCPicker> {
   ///City Dropdown Widget
   Widget cityDropdown() {
     return DropdownWithSearch(
-      title: "City",
-      placeHolder: "Search City",
+      title: "Ciudad",
+      placeHolder: "Buscar ciudad",
       disabled: _cities.length == 0 ? true : false,
       items: _cities.map((String? dropDownStringItem) {
         return dropDownStringItem;
